@@ -1,7 +1,6 @@
 # yourstory
 
-A new Flutter project.
-
+Tried cloning the frontend of YourStory app.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
