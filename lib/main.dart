@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:yourstory/login.dart';
-import 'package:yourstory/GoogleButton.dart';
-import 'homepage.dart';
+import 'package:yourstory/homepage.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -31,11 +29,6 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  @override
-  void initState() async{
-    super.initState();
-    await Navigator.push(context, MaterialPageRoute(builder: (context)=>home()));
-  }
   @override
   Widget build(BuildContext context) {
     
@@ -59,7 +52,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Container(
               width: 100,
               height: 10,
-              child: LinearProgressIndicator(color: Colors.red.shade100,backgroundColor: Colors.red,)),
+              child: LinearProgressIndicator(color: Colors.red.shade100,backgroundColor: Colors.red,)
+            )              
               
           ],
         ),
